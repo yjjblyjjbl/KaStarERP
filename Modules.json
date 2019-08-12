@@ -1,0 +1,156 @@
+{
+    "list":[
+        {
+        	"id" : 1,
+			"name" : "core",
+            "title" : "业务功能",
+            "visible" : true,
+			"child": [
+				{
+					"id" : 5,
+					"name" : "schedule",
+                    "title" : "排课调课",
+                    "visible" : true
+                },
+                {
+                	"id" : 6,
+					"name" : "attendance",
+                    "title" : "考勤",
+                    "visible" : true
+                },
+                {
+                	"id" : 7,
+					"name" : "sale",
+                    "title" : "销售",
+                    "visible" : true
+                },
+                {
+                	"id" : 8,
+					"name" : "stock",
+                    "title" : "库存管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 9,
+					"name" : "account",
+                    "title" : "出入账",
+                    "visible" : true
+                },
+                {
+                	"id" : 10,
+					"name" : "wage",
+                    "title" : "工资核算",
+                    "visible" : true
+                }
+        	]
+        },
+        {
+        	"id" : 2,
+			"name" : "basedata",
+            "title" : "基础数据",
+            "visible" : true,
+			"child": [
+				{
+					"id" : 11,
+					"name" : "student",
+                    "title" : "学生管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 12,
+					"name" : "teacher",
+                    "title" : "教师员工管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 13,
+					"name" : "classroom",
+                    "title" : "教室管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 14,
+					"name" : "subject",
+                    "title" : "课程管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 15,
+					"name" : "goods",
+                    "title" : "商品管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 16,
+					"name" : "price",
+                    "title" : "价目管理",
+                    "visible" : true
+                }
+        	]
+        },
+        {
+        	"id" : 3,
+			"name" : "report",
+            "title" : "报表",
+            "visible" : true,
+			"child": [
+				{
+					"id" : 17,
+					"name" : "attendancereport",
+                    "title" : "考勤报表",
+                    "visible" : true
+                },
+                {
+                	"id" : 18,
+					"name" : "salereport",
+                    "title" : "销售报表",
+                    "visible" : true
+                },
+                {
+                	"id" : 19,
+					"name" : "schedulereport",
+                    "title" : "排课调课记录",
+                    "visible" : true
+                },
+                {
+                	"id" : 20,
+					"name" : "wagereport",
+                    "title" : "工资报表",
+                    "visible" : true
+                },
+                {
+                	"id" : 21,
+					"name" : "stockreport",
+                    "title" : "出入库记录",
+                    "visible" : true
+                },
+                {
+                	"id" : 22,
+					"name" : "accountreport",
+                    "title" : "出入账记录",
+                    "visible" : true
+                }
+        	]
+        },
+        {
+        	"id" : 4,
+			"name" : "system",
+            "title" : "系统管理",
+            "visible" : true,
+			"child": [
+				{
+					"id" : 23,
+					"name" : "user",
+                    "title" : "账号管理",
+                    "visible" : true
+                },
+                {
+                	"id" : 24,
+					"name" : "rolelimit",
+                    "title" : "角色权限",
+                    "visible" : true
+                }
+        	]
+        }
+    ]
+}
