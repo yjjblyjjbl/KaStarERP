@@ -1,43 +1,49 @@
 {
     "list":[
         {
-        	"id" : 1,
+        	"id" : 100,
 			"name" : "core",
             "title" : "业务功能",
             "visible" : true,
 			"child": [
 				{
-					"id" : 5,
+					"id" : 101,
 					"name" : "schedule",
                     "title" : "排课调课",
                     "visible" : true
                 },
                 {
-                	"id" : 6,
+                	"id" : 102,
 					"name" : "attendance",
                     "title" : "考勤",
                     "visible" : true
                 },
                 {
-                	"id" : 7,
+                	"id" : 103,
+                	"name" : "leave",
+                	"title" : "请假",
+                	"visible" : true
+                },
+                {
+                	"id" : 104,
 					"name" : "sale",
                     "title" : "销售",
                     "visible" : true
                 },
                 {
-                	"id" : 8,
+                	"id" : 105,
 					"name" : "stock",
                     "title" : "库存管理",
                     "visible" : true
                 },
                 {
-                	"id" : 9,
+                	"id" : 106,
 					"name" : "account",
                     "title" : "出入账",
                     "visible" : true
                 },
                 {
-                	"id" : 10,
+                	"id" : 107,
 					"name" : "wage",
                     "title" : "工资核算",
                     "visible" : true
@@ -45,87 +51,99 @@
         	]
         },
         {
-        	"id" : 2,
+        	"id" : 200,
 			"name" : "basedata",
             "title" : "基础数据",
             "visible" : true,
 			"child": [
 				{
-					"id" : 11,
+					"id" : 201,
 					"name" : "student",
                     "title" : "学生管理",
                     "visible" : true
                 },
                 {
-                	"id" : 12,
+                	"id" : 202,
 					"name" : "teacher",
                     "title" : "教师员工管理",
                     "visible" : true
                 },
                 {
-                	"id" : 13,
+                	"id" : 203,
 					"name" : "classroom",
                     "title" : "教室管理",
                     "visible" : true
                 },
                 {
-                	"id" : 14,
+                	"id" : 204,
 					"name" : "subject",
                     "title" : "课程管理",
                     "visible" : true
                 },
                 {
-                	"id" : 15,
+                	"id" : 205,
 					"name" : "goods",
                     "title" : "商品管理",
                     "visible" : true
                 },
                 {
-                	"id" : 16,
+                	"id" : 206,
 					"name" : "price",
                     "title" : "价目管理",
                     "visible" : true
+                },
+                {
+                	"id" : 207,
+                	"name" : "discount",
+                	"title" : "折扣活动",
+                	"visible" : true
                 }
         	]
         },
         {
-        	"id" : 3,
+        	"id" : 300,
 			"name" : "report",
             "title" : "报表",
             "visible" : true,
 			"child": [
+                {
+                    "id" : 301,
+                    "name" : "signup",
+                    "title" : "报名表",
+                    "visible" : true
+                },
 				{
-					"id" : 17,
+					"id" : 302,
 					"name" : "attendancereport",
                     "title" : "考勤报表",
                     "visible" : true
                 },
                 {
-                	"id" : 18,
+                	"id" : 303,
 					"name" : "salereport",
                     "title" : "销售报表",
                     "visible" : true
                 },
                 {
-                	"id" : 19,
+                	"id" : 304,
 					"name" : "schedulereport",
                     "title" : "排课调课记录",
                     "visible" : true
                 },
                 {
-                	"id" : 20,
+                	"id" : 305,
 					"name" : "wagereport",
                     "title" : "工资报表",
                     "visible" : true
                 },
                 {
-                	"id" : 21,
+                	"id" : 306,
 					"name" : "stockreport",
                     "title" : "出入库记录",
                     "visible" : true
                 },
                 {
-                	"id" : 22,
+                	"id" : 307,
 					"name" : "accountreport",
                     "title" : "出入账记录",
                     "visible" : true
@@ -133,19 +151,19 @@
         	]
         },
         {
-        	"id" : 4,
+        	"id" : 400,
 			"name" : "system",
             "title" : "系统管理",
             "visible" : true,
 			"child": [
 				{
-					"id" : 23,
+					"id" : 401,
 					"name" : "user",
                     "title" : "账号管理",
                     "visible" : true
                 },
                 {
-                	"id" : 24,
+                	"id" : 402,
 					"name" : "rolelimit",
                     "title" : "角色权限",
                     "visible" : true
